@@ -36,6 +36,7 @@ const CartUserForm = ({ totalPrice }) => {
     items,
     totalPrice: totalPrice,
     name: values.name,
+    email: values.email,
     phone: values.phone,
     address: values.address,
   };
